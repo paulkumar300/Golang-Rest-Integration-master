@@ -1,0 +1,116 @@
+{
+	"id": "f6a54c01-5a68-2dc4-0e67-4ccac451a824",
+	"name": "SampleApp",
+	"description": "",
+	"order": [
+		"a432afed-d2f8-9d90-a202-35eb37992919",
+		"e8c40ad4-8c4c-00ed-c417-8c930634a857",
+		"c189e35d-be03-d0bd-e628-df0ac74d637f",
+		"3890d041-865d-6d8a-5bc8-c633536d0dbc"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1520531818326,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "3890d041-865d-6d8a-5bc8-c633536d0dbc",
+			"url": "127.0.0.1:8080/people",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "127.0.0.1:8080/people",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "f6a54c01-5a68-2dc4-0e67-4ccac451a824",
+			"rawModeData": "{\"firstname\":\"itech\",\"lastname\":\"soft\",\"city\":\"delhi\"}"
+		},
+		{
+			"id": "a432afed-d2f8-9d90-a202-35eb37992919",
+			"url": "127.0.0.1:8080/people/1",
+			"queryParams": [],
+			"method": "DELETE",
+			"headers": "",
+			"headerData": [],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "127.0.0.1:8080/people/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "f6a54c01-5a68-2dc4-0e67-4ccac451a824"
+		},
+		{
+			"id": "c189e35d-be03-d0bd-e628-df0ac74d637f",
+			"url": "127.0.0.1:8080/people",
+			"queryParams": [],
+			"method": "GET",
+			"headers": "",
+			"headerData": [],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "127.0.0.1:8080/people",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "f6a54c01-5a68-2dc4-0e67-4ccac451a824"
+		},
+		{
+			"id": "e8c40ad4-8c4c-00ed-c417-8c930634a857",
+			"url": "127.0.0.1:8080/people/1",
+			"queryParams": [],
+			"method": "PUT",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "127.0.0.1:8080/people/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "f6a54c01-5a68-2dc4-0e67-4ccac451a824",
+			"rawModeData": "{\n\n    \"firstname\": \"itechnew\",\n    \"lastname\": \"soft\",\n    \"city\": \"Delhi\"\n}"
+		}
+	]
+}
